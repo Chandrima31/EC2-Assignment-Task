@@ -10,4 +10,8 @@
 
 • A dataframe is created to store nested JSON content in tabular format. Both ArrayType and StructType are used to explode and flatten columns respectively. 
 
-• The dataframe was printed to check its tabular format. "Full Nested Table Fomat.pdf" gives a fully parsed view of the tabular format. This is to cross check the results derived from code.
+• The dataframe was printed to check its tabular format. 
+
+• The dataframe was converted to parquet format to store all the columns and the schema was printed to check if all the fields are incorporated in different nested levels of the original JSON file.
+
+• "Full Nested Table Fomat.pdf" gives a fully parsed view of the tabular format. This is to cross check the results derived from code.
