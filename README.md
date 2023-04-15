@@ -6,7 +6,7 @@
 
 • "ubo1.json" file is a complex JSON file having multiple nesting.
 
-• PySpark is used for efficiently reading the JSON file.
+• "Nested_JSON_File_to_DF_and_Parquet.ipynb" is the notebook having the workings. PySpark is used for efficiently reading the JSON file.
 
 • A dataframe is created to store nested JSON content in tabular format. Both ArrayType and StructType are used to explode and flatten columns respectively. 
 
